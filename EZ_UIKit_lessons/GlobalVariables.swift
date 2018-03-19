@@ -22,6 +22,8 @@ var window : UIWindow!
 var titleLabel: UILabel!
 var currentLabel: UILabel!
 
+var currentTextField : UITextField!
+
 
 struct AllFirstControllersStruct{
     static var allFirstControllersDictsArray : [AllFirstControllersStruct] = []
@@ -40,6 +42,6 @@ func setVCNamesForAllLessons(){
     _ = AllFirstControllersStruct(name: "5 - 1_2", controller: VC5_1_2())
     _ = AllFirstControllersStruct(name: "5 - 2", controller: VC5_2())
     _ = AllFirstControllersStruct(name: "5 - 4", controller: VC5_4())
-    
+    _ = AllFirstControllersStruct(name: "5 - 5", controller: VC5_5())
     isVCset = true
 }

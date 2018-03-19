@@ -22,6 +22,7 @@
 		E35A6BCD205F308D00D865F1 /* VC5_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BCC205F308D00D865F1 /* VC5_2.swift */; };
 		E35A6BCF205F30BF00D865F1 /* VC5_4.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BCE205F30BF00D865F1 /* VC5_4.swift */; };
 		E35A6BD1205F30EA00D865F1 /* VC5_4_SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BD0205F30EA00D865F1 /* VC5_4_SecondView.swift */; };
+		E35A6BD4205F387400D865F1 /* VC5_5_SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BD3205F387400D865F1 /* VC5_5_SecondView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,7 @@
 		E35A6BCC205F308D00D865F1 /* VC5_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC5_2.swift; sourceTree = "<group>"; };
 		E35A6BCE205F30BF00D865F1 /* VC5_4.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC5_4.swift; sourceTree = "<group>"; };
 		E35A6BD0205F30EA00D865F1 /* VC5_4_SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC5_4_SecondView.swift; sourceTree = "<group>"; };
+		E35A6BD3205F387400D865F1 /* VC5_5_SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC5_5_SecondView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +81,7 @@
 				E35A6BC0205F2F5E00D865F1 /* ExtensionForVC.swift */,
 				E35A6BC2205F2F8300D865F1 /* InitViewController.swift */,
 				E35A6BC4205F2FAE00D865F1 /* VC5_5.swift */,
+				E35A6BD3205F387400D865F1 /* VC5_5_SecondView.swift */,
 				E35A6BD2205F312900D865F1 /* arhiveVCs */,
 				E35A6BB3205F2E3A00D865F1 /* Assets.xcassets */,
 				E35A6BB5205F2E3A00D865F1 /* LaunchScreen.storyboard */,
@@ -186,6 +189,7 @@
 				E35A6BC5205F2FAE00D865F1 /* VC5_5.swift in Sources */,
 				E35A6BCB205F305700D865F1 /* VC5_1_2.swift in Sources */,
 				E35A6BCD205F308D00D865F1 /* VC5_2.swift in Sources */,
+				E35A6BD4205F387400D865F1 /* VC5_5_SecondView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

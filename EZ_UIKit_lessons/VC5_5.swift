@@ -1,36 +1,59 @@
-//
-//  VC5_5.swift
-//  EZ_UIKit_lessons
-//
-//  Created by 1234 on 19.03.18.
-//  Copyright © 2018 Sergey Riabinin. All rights reserved.
-//
-
 import UIKit
-
+    var you = ""
 class VC5_5: UIViewController {
-    
+    var buttonClient : UIButton!
+    var buttonDeveloper : UIButton!
+
     override func viewDidLoad() {
         super.viewDidLoad()
+        view.backgroundColor = .white
+        setSwipe()
+        setClientButton()
+        setDeveloperButton()
+
+    }
+    
+    func setClientButton() -> Void {
+        currentButton = UIButton()
+
+        currentButton.frame = CGRect(x: view.bounds.width * 0.25, y: view.bounds.height * 0.1, width: view.bounds.width * 0.5, height: view.bounds.height * 0.1)
+        currentButton.setTitle("Клиент", for: .normal)
+        currentButton.backgroundColor = .orange
+        currentButton.setTitleColor(UIColor.black, for: .normal)
+        currentButton.titleLabel?.adjustsFontSizeToFitWidth = true
+        currentButton.addTarget(self, action: #selector(VC5_5.buttonPressed(sender:)), for: UIControlEvents.touchUpInside)
+        buttonClient = currentButton
+        view.addSubview(buttonClient)
+    }
+    @objc func buttonPressed(sender: UIButton){
+        print("button pressed")
+        you = "client"
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window.rootViewController = VC5_5_SecondView()
+        window.makeKeyAndVisible()
         
-        // Do any additional setup after loading the view.
     }
-    
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    func setDeveloperButton() -> Void {
+        currentButton = UIButton()
+        
+        currentButton.frame = CGRect(x: view.bounds.width * 0.25, y: view.bounds.height * 0.4, width: view.bounds.width * 0.5, height: view.bounds.height * 0.1)
+        currentButton.setTitle("Разработчик", for: .normal)
+        currentButton.backgroundColor = .orange
+        currentButton.setTitleColor(UIColor.black, for: .normal)
+        currentButton.titleLabel?.adjustsFontSizeToFitWidth = true
+        currentButton.addTarget(self, action: #selector(VC5_5.buttonDeveloperPressed(sender:)), for: UIControlEvents.touchUpInside)
+        buttonDeveloper = currentButton
+        view.addSubview(buttonDeveloper)
     }
-    
-    
-    /*
-     // MARK: - Navigation
-     
-     // In a storyboard-based application, you will often want to do a little preparation before navigation
-     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-     // Get the new view controller using segue.destinationViewController.
-     // Pass the selected object to the new view controller.
-     }
-     */
+    @objc func buttonDeveloperPressed(sender: UIButton){
+        print("button pressed")
+        you = "developer"
+        window = UIWindow(frame: UIScreen.main.bounds)
+        window.rootViewController = VC5_5_SecondView()
+        window.makeKeyAndVisible()
+        
+    }
+
     
 }
 
