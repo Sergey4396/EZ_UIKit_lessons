@@ -45,12 +45,12 @@ class VC5_5_SecondView: UIViewController, UITextFieldDelegate {
 
         passClientTextField.isSecureTextEntry = true
         
-        view.addSubview(nameClientTextField)
-        view.addSubview(surnameClientTextField)
-        view.addSubview(passClientTextField)
-        view.addSubview(fourDigitsClientTextField)
-        view.addSubview(cardNomberClientTextField)
-        view.addSubview(mailClientTextField)
+//        view.addSubview(nameClientTextField)
+//        view.addSubview(surnameClientTextField)
+//        view.addSubview(passClientTextField)
+//        view.addSubview(fourDigitsClientTextField)
+//        view.addSubview(cardNomberClientTextField)
+//        view.addSubview(mailClientTextField)
     }
     func setDeveloperTextViews(){
 //переход на второй контроллер и заполнение 7 текстфилдов: емейл, имя, фамилия, номер банковской карты, технология(к примеру ios, android, web), язык на котором пишет, опыт в годах.
@@ -64,13 +64,13 @@ class VC5_5_SecondView: UIViewController, UITextFieldDelegate {
         langDevTextField = setTextField(placeholder: "используемый язык", y: view.bounds.height * 0.6)
         expirienceDevTextField = setTextField(placeholder: "опыт работы", y: view.bounds.height * 0.7)
         
-        view.addSubview(mailDevTextField)
-        view.addSubview(nameDevTextField)
-        view.addSubview(surnameDevTextField)
-        view.addSubview(cardNomberDevTextField)
-        view.addSubview(tehDevTextField)
-        view.addSubview(langDevTextField)
-        view.addSubview(expirienceDevTextField)
+//        view.addSubview(mailDevTextField)
+//        view.addSubview(nameDevTextField)
+//        view.addSubview(surnameDevTextField)
+//        view.addSubview(cardNomberDevTextField)
+//        view.addSubview(tehDevTextField)
+//        view.addSubview(langDevTextField)
+//        view.addSubview(expirienceDevTextField)
     }
     
     func setSaveButton(){
@@ -108,6 +108,7 @@ class VC5_5_SecondView: UIViewController, UITextFieldDelegate {
         
         currentTextField.textColor = .darkGray
         currentTextField.delegate = self
+        view.addSubview(currentTextField)
         return currentTextField
     }
     
