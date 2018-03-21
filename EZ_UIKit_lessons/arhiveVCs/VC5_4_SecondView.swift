@@ -12,9 +12,10 @@ class VC5_4_SecondView: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        firstFuncForVC()
         view.backgroundColor = .orange
         setLabel()
-        setSwipe()
+
     }
     override func viewDidAppear(_ animated: Bool) {
         if isYearBissextile {

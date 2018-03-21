@@ -6,8 +6,7 @@ class VC5_5: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
-        setSwipe()
+        firstFuncForVC()
         setClientButton()
         setDeveloperButton()
 

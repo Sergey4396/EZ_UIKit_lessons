@@ -18,8 +18,7 @@ class VC5_2: UIViewController {
     var pickerN2 : UIPickerView!
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
-        setSwipe()
+        firstFuncForVC()
         setLabel()
         picker.center = CGPoint(x: view.bounds.width * 0.5, y: view.bounds.height * 0.3 )
         

@@ -12,6 +12,7 @@ class VC2: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        firstFuncForVC()
         view.backgroundColor = .lightGray
         setSwitchN1()
         setSwitchN2()

@@ -25,6 +25,10 @@
 		E35A6BD4205F387400D865F1 /* VC5_5_SecondView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BD3205F387400D865F1 /* VC5_5_SecondView.swift */; };
 		E3B9A9632061832C0052E312 /* Nezhnost.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = E3F7AEE620600D7900FBC190 /* Nezhnost.mp3 */; };
 		E3B9A96620618D110052E312 /* music in Resources */ = {isa = PBXBuildFile; fileRef = E3B9A96520618D100052E312 /* music */; };
+		E3B9A968206239F60052E312 /* VC6_2.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9A967206239F60052E312 /* VC6_2.swift */; };
+		E3B9A96A20623A140052E312 /* VC6_2_Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9A96920623A140052E312 /* VC6_2_Settings.swift */; };
+		E3B9A96C20623A2C0052E312 /* VC6_2_Player.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9A96B20623A2C0052E312 /* VC6_2_Player.swift */; };
+		E3B9A96E2062CF960052E312 /* CoreDataFunctions.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3B9A96D2062CF960052E312 /* CoreDataFunctions.swift */; };
 		E3F7AEE52060096B00FBC190 /* VC6_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F7AEE42060096B00FBC190 /* VC6_1.swift */; };
 		E3F7AEEA20613B1000FBC190 /* songClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = E3F7AEE920613B1000FBC190 /* songClass.swift */; };
 /* End PBXBuildFile section */
@@ -49,6 +53,10 @@
 		E35A6BD0205F30EA00D865F1 /* VC5_4_SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC5_4_SecondView.swift; sourceTree = "<group>"; };
 		E35A6BD3205F387400D865F1 /* VC5_5_SecondView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC5_5_SecondView.swift; sourceTree = "<group>"; };
 		E3B9A96520618D100052E312 /* music */ = {isa = PBXFileReference; lastKnownFileType = folder; path = music; sourceTree = "<group>"; };
+		E3B9A967206239F60052E312 /* VC6_2.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC6_2.swift; sourceTree = "<group>"; };
+		E3B9A96920623A140052E312 /* VC6_2_Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC6_2_Settings.swift; sourceTree = "<group>"; };
+		E3B9A96B20623A2C0052E312 /* VC6_2_Player.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC6_2_Player.swift; sourceTree = "<group>"; };
+		E3B9A96D2062CF960052E312 /* CoreDataFunctions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataFunctions.swift; sourceTree = "<group>"; };
 		E3F7AEE42060096B00FBC190 /* VC6_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC6_1.swift; sourceTree = "<group>"; };
 		E3F7AEE620600D7900FBC190 /* Nezhnost.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Nezhnost.mp3; sourceTree = "<group>"; };
 		E3F7AEE920613B1000FBC190 /* songClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = songClass.swift; sourceTree = "<group>"; };
@@ -86,11 +94,13 @@
 			children = (
 				E35A6BA9205F2E3A00D865F1 /* AppDelegate.swift */,
 				E35A6BBE205F2F0400D865F1 /* GlobalVariables.swift */,
+				E3B9A96D2062CF960052E312 /* CoreDataFunctions.swift */,
 				E35A6BC0205F2F5E00D865F1 /* ExtensionForVC.swift */,
 				E35A6BC2205F2F8300D865F1 /* InitViewController.swift */,
 				E35A6BD2205F312900D865F1 /* arhiveVCs */,
-				E3F7AEE42060096B00FBC190 /* VC6_1.swift */,
-				E3F7AEE920613B1000FBC190 /* songClass.swift */,
+				E3B9A967206239F60052E312 /* VC6_2.swift */,
+				E3B9A96920623A140052E312 /* VC6_2_Settings.swift */,
+				E3B9A96B20623A2C0052E312 /* VC6_2_Player.swift */,
 				E35A6BB3205F2E3A00D865F1 /* Assets.xcassets */,
 				E3B9A960206181AA0052E312 /* music */,
 				E3B9A96520618D100052E312 /* music */,
@@ -113,6 +123,8 @@
 				E35A6BD0205F30EA00D865F1 /* VC5_4_SecondView.swift */,
 				E35A6BC4205F2FAE00D865F1 /* VC5_5.swift */,
 				E35A6BD3205F387400D865F1 /* VC5_5_SecondView.swift */,
+				E3F7AEE42060096B00FBC190 /* VC6_1.swift */,
+				E3F7AEE920613B1000FBC190 /* songClass.swift */,
 			);
 			path = arhiveVCs;
 			sourceTree = "<group>";
@@ -198,10 +210,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E3B9A968206239F60052E312 /* VC6_2.swift in Sources */,
 				E35A6BC7205F2FF100D865F1 /* SecondViewController.swift in Sources */,
+				E3B9A96C20623A2C0052E312 /* VC6_2_Player.swift in Sources */,
 				E35A6BC9205F302300D865F1 /* VC5_1.swift in Sources */,
 				E35A6BB2205F2E3A00D865F1 /* EZ_UIKit_lessons.xcdatamodeld in Sources */,
 				E35A6BAC205F2E3A00D865F1 /* ViewController.swift in Sources */,
+				E3B9A96E2062CF960052E312 /* CoreDataFunctions.swift in Sources */,
 				E3F7AEE52060096B00FBC190 /* VC6_1.swift in Sources */,
 				E35A6BC3205F2F8300D865F1 /* InitViewController.swift in Sources */,
 				E35A6BD1205F30EA00D865F1 /* VC5_4_SecondView.swift in Sources */,
@@ -214,6 +229,7 @@
 				E35A6BCB205F305700D865F1 /* VC5_1_2.swift in Sources */,
 				E35A6BCD205F308D00D865F1 /* VC5_2.swift in Sources */,
 				E35A6BD4205F387400D865F1 /* VC5_5_SecondView.swift in Sources */,
+				E3B9A96A20623A140052E312 /* VC6_2_Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

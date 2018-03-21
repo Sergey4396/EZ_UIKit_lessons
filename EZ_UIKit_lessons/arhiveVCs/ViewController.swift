@@ -17,10 +17,11 @@ class VC1: UIViewController {
     }
     override func viewDidLoad() {
         super.viewDidLoad()
+        firstFuncForVC()
         view.backgroundColor = .yellow
         setSwitchN1()
         setSwitchN2()
-        setSwipe()
+
         print("и viewLoad() очевидно загружается раньше чем viewDidLoad()")
     }
     //    override func viewWillAppear(_ animated: Bool) {

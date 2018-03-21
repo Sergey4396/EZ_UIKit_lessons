@@ -21,8 +21,7 @@ class VC5_5_SecondView: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
-        setSwipe()
+        firstFuncForVC()
         if you == "client"{
             setClientTextViews()
         }

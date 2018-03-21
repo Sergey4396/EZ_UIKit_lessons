@@ -19,10 +19,7 @@ class VC6_1: UIViewController {
     var isPlaying = false
     override func viewDidLoad() {
         super.viewDidLoad()
-let h = view.bounds.height
-let w = view.bounds.width
-        view.backgroundColor = .white
-        setSwipe()
+firstFuncForVC()
         creatingSongList()
         
 //        do {
@@ -38,8 +35,7 @@ let w = view.bounds.width
         } catch {
             print("Can't set the next song")
         }
-        
-        
+
         setPlayButton()
         setPauseButton()
         setSlider()
@@ -55,16 +51,7 @@ let w = view.bounds.width
         backButton.backgroundColor = .yellow
 
 //        self.player.play()
-        
-
-        
-        
-        
-        
-        
-        
-        
-        
+    
     }
     
     func setPlayButton(){
@@ -121,9 +108,7 @@ let w = view.bounds.width
         slider.minimumValue = 0.0
         slider.maximumValue = Float(player.duration)
         slider.addTarget(self, action: #selector(VC6_1.changeSliderValue(sender:)), for: .valueChanged)
-        
-
-        
+     
         view.addSubview(slider)
         
     }
@@ -256,8 +241,8 @@ let w = view.bounds.width
                 print("Can't set the next song")
             }
             player.play()
-            
-            titleLabel.text = String(describing: songList[currentSong].url!).last
+            titleLabel.text = String(describing: songList[currentSong].url!)
+
         }
         
     }

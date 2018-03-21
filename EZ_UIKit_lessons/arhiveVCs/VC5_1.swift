@@ -12,9 +12,7 @@ class VC5_1: UIViewController {
     let picker = UIPickerView()
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = UIColor.white
-        
-        setSwipe()
+        firstFuncForVC()
         picker.center = view.center
         
         //Подписаться

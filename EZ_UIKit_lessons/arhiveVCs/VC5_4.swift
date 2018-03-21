@@ -13,8 +13,7 @@ class VC5_4: UIViewController {
     let picker = UIDatePicker()
     override func viewDidLoad() {
         super.viewDidLoad()
-        view.backgroundColor = .white
-        setSwipe()
+        firstFuncForVC()
         picker.center = view.center
         
         picker.datePickerMode = .date
