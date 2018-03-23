@@ -20,10 +20,7 @@ func chekIfAnyEntityExist() -> Bool{
     } catch{
         print ("OOPS Error")
     }
-    
-    
-    
-    
+  
     if allEntityVC6_2Array.count == 0 {
         return false
     }
@@ -31,11 +28,9 @@ func chekIfAnyEntityExist() -> Bool{
         return true
     }
 }
-
 //создание пустых данных при первоначальной загрузке
 func newEntity(){
-    
-    
+   
     let context = (UIApplication.shared.delegate as! AppDelegate).persistentContainer.viewContext
     
     let entity = EntityVC6_2(context: context)
@@ -46,7 +41,6 @@ func newEntity(){
     (UIApplication.shared.delegate as! AppDelegate).saveContext()
     
 }
-
 //изменение оттенка
 func changeCurrentHue(hue: Float){
     
@@ -61,11 +55,8 @@ func changeCurrentHue(hue: Float){
     
     allEntityVC6_2Array[0].hue = hue
     
-    
     (UIApplication.shared.delegate as! AppDelegate).saveContext()
 }
-
-
 //получение оттенка
 func getHue() -> Float{
     

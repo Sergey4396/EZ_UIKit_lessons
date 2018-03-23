@@ -18,6 +18,7 @@ var currentButton : UIButton!
 var currentPickerView : UIPickerView!
 var currentLabel: UILabel!
 var currentTextField : UITextField!
+var currentSegmentedControl : UISegmentedControl!
 
 var currentSlider : UISlider!
 var opsButton : UIButton!
@@ -58,5 +59,6 @@ func setVCNamesForAllLessons(){
     _ = AllFirstControllersStruct(name: "5 - 5", controller: VC5_5())
     _ = AllFirstControllersStruct(name: "6 - 1", controller: VC6_1())
     _ = AllFirstControllersStruct(name: "6 - 2", controller: VC6_2())
+    _ = AllFirstControllersStruct(name: "7 - 1", controller: VC7_1())
     isVCset = true
 }
