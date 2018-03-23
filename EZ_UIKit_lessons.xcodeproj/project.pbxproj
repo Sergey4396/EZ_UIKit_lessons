@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C2F875A20659FF1004D395E /* VC8_1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C2F875920659FF1004D395E /* VC8_1.swift */; };
 		E35A6BAA205F2E3A00D865F1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BA9205F2E3A00D865F1 /* AppDelegate.swift */; };
 		E35A6BAC205F2E3A00D865F1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BAB205F2E3A00D865F1 /* ViewController.swift */; };
 		E35A6BB2205F2E3A00D865F1 /* EZ_UIKit_lessons.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = E35A6BB0205F2E3A00D865F1 /* EZ_UIKit_lessons.xcdatamodeld */; };
@@ -37,6 +38,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C2F875920659FF1004D395E /* VC8_1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VC8_1.swift; sourceTree = "<group>"; };
 		E35A6BA6205F2E3A00D865F1 /* EZ_UIKit_lessons.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = EZ_UIKit_lessons.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E35A6BA9205F2E3A00D865F1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E35A6BAB205F2E3A00D865F1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -140,6 +142,7 @@
 				E3B9A96B20623A2C0052E312 /* VC6_2_Player.swift */,
 				E3B9A96F2063BF090052E312 /* VC7_1.swift */,
 				E3B9A97620642BE80052E312 /* VC7_1_Second.swift */,
+				7C2F875920659FF1004D395E /* VC8_1.swift */,
 			);
 			path = arhiveVCs;
 			sourceTree = "<group>";
@@ -229,6 +232,7 @@
 				E35A6BC7205F2FF100D865F1 /* SecondViewController.swift in Sources */,
 				E3B9A96C20623A2C0052E312 /* VC6_2_Player.swift in Sources */,
 				E35A6BC9205F302300D865F1 /* VC5_1.swift in Sources */,
+				7C2F875A20659FF1004D395E /* VC8_1.swift in Sources */,
 				E35A6BB2205F2E3A00D865F1 /* EZ_UIKit_lessons.xcdatamodeld in Sources */,
 				E35A6BAC205F2E3A00D865F1 /* ViewController.swift in Sources */,
 				E3B9A96E2062CF960052E312 /* CoreDataFunctions.swift in Sources */,
